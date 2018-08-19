@@ -1,0 +1,127 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  border: 1px solid black;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.player-board-wrapper {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.player-board-item {
+  margin: 10px;
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  @media only screen and (min-width: 321px) {
+    font-size: 20px;
+  }
+}
+
+.player-score {
+  color: red;
+  width: 20px;
+  border: 1px solid green;
+  margin: 0 auto;
+}
+
+.player-board-versus {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player-choice-wrapper {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color:#dbe4e4;
+  display: flex;
+  min-height: 150px;
+}
+
+.player-choice-item {
+  margin: 10px 0;
+  width: 25%;
+  text-align: center;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  @media only screen and (min-width: 321px) {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+.player-choice-result {
+  margin: 10px 0;
+  width: 20%;
+  text-align: center;
+  height: 50px;
+}
+
+.game-mode {
+  text-align: center;
+  font-size: 24px;
+}
+
+.game-over {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+
+.next-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-round {
+  padding: 10px;
+}
+
+button {
+  background-color: burlywood;
+  height: 40px;
+  margin: 4px;
+  min-width: 140px;
+  width: auto;
+  font-weight: 700;
+  font-size: medium;
+}
+
+select {
+  margin: 4px;
+  min-width: 140px;
+  width: auto;
+  height: 30px;
+  font-weight: 700;
+  font-size: medium;
+}
