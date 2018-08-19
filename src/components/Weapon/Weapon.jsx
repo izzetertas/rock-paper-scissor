@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import CSSModules from 'react-css-modules'
-import styles from './Weapon.css'
+import styles from './Weapon.scss'
 import Icon from '../Icon/index'
 
 class Weapon extends Component {
